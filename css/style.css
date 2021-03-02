@@ -1,0 +1,193 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+        /*/   header   */ 
+.header{
+    width: 100%;
+    height: 70px;
+    background-color: #0193e0;
+    display: flex;
+    flex-direction: row;
+}
+.Logo_header{
+    margin-left: 35px;
+    margin-top: 5px;
+}
+.navbar_header{
+    margin-left: 400px;
+    margin-top: 25px;
+}
+.navbar{
+    font-size: 20px;
+    margin-left: 40px;
+    text-decoration: none;
+}
+.btn{
+    height: 50px;
+    width: 200px;
+    margin-left: 100px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: green;
+}
+.btn:hover{
+    cursor: pointer;
+
+}
+            /*   Section About KYTC    */
+.About_KYTC{
+    width: 100%;
+    height: 600px;
+    background-color: burlywood;
+    padding-top: 15px;
+}
+.title_section{
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: underline;
+    color:#fff;
+}
+.Paragraph_About{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+    padding-left: 5px;
+    text-align: center;
+    color: #000;
+}
+            /*    Section Programes   */
+.Programes_Technical{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    background-color: #5faed8;
+}
+.E_B{
+    width: 20%;
+    height: 200px;
+    border: 1px solid #000;
+    margin: 5%;
+}
+.main_head{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 5%;
+}
+.Nurse{
+    width: 20%;
+    height: 200px;
+    border: 1px solid #000;
+    margin: 5%;
+}
+.HAA{
+    width: 20%;
+    height: 200px;
+    border: 1px solid #000;
+    margin: 5%;
+}
+.BOM{
+    width: 20%;
+    height: 200px;
+    border: 1px solid #000;
+    margin: 5%;
+}
+.photo_section{
+    display: flex;
+    flex-direction: row;
+    padding: 50px 20px;
+}
+.Photo{
+    margin-left: 50px;
+    margin: auto;
+}
+        /*    Section Contact   */ 
+.section_Contact{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+}
+        /*   left Part of section */ 
+.map_college{
+    width: 50%;
+    height: 500px;
+}
+.map{
+    width: 100%;
+    height: 500px;
+}
+        /*   right Part of section */ 
+.form_college{
+    width: 50%;
+    height: 500px;
+    background-color: #fff;
+    padding-top: 15px;
+    background-color: #a5d9f5;
+}
+.lable_form{
+    padding-left: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #000;
+}
+.text{
+    height: 40px;
+    width: 250px;
+    padding-left: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.text_Age{
+    height: 40px;
+    width: 60px;
+    padding-left: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.textarea{
+    height: 100px;
+    width: 300px;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
+}
+.btn_form{
+    height: 50px;
+    width: 200px;
+    margin-left: 240px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: green;
+}
+        /*   KYTC Statistics   */ 
+.section_Statistics{
+    width: 100%;
+    height: 200px;
+    background-color: #5faed8;
+    padding-top: 15px;
+}
+.content{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+        /*   footer   */
+.footer{
+    width: 100%;
+    background-color: #2d6380;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: #000;
+}
